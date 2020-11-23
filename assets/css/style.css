@@ -3,13 +3,17 @@
     text-align: center;
 }
 
+body{
+    background-color: rgb(111, 151, 202);
+}
+
 .justify{
     text-align: justify;
 }
 
 .container{
     display: flex;
-    flex-flow: row;
+    flex-flow: row wrap;
     justify-content: center;
     align-items: center;
 }
@@ -29,12 +33,20 @@
     color:grey;
 }
 
+.f-25{
+    font-size: 25px;
+}
+
 .p-30 {
     padding: 30px;
 }
 
 .br-50{
     border-radius: 50%;
+}
+
+.br-30{
+    border-radius: 30%;
 }
 
 .wh-300 {
@@ -47,9 +59,30 @@
     height: 50px;
 }
 
+.instagram{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: transparent url("../img/instagram.png") no-repeat 0 0;
+}
+
+
+.tm-menu{
+    width: 30px;
+    height: 30px;
+    text-align: justify;
+    margin: 0%;
+}
+
+.tm-menu:hover{
+    background: lightcoral;
+}
+
 .mb-50 {
     margin-bottom: 50px;
 }
+
+
 /* Estilos da página index.html */
 
 .ml-50 {
