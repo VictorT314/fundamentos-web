@@ -17,7 +17,7 @@ function validaNome(){
     } else {
         txtNome.innerHTML = 'Nome válido!'
         txtNome.style.color = 'green'
-        let nomeOk = true
+        nomeOk = true
     }
 }
 
@@ -29,7 +29,7 @@ function validaEmail(){
     } else {
         txtEmail.innerHTML = 'Email válido!'
         txtEmail.style.color = 'green'
-        let emailOk = true
+        emailOk = true
     }
 
 }
@@ -42,15 +42,15 @@ function validaAssunto(){
         txtAssunto.style.display = 'block'
     } else {
         txtAssunto.style.display = 'none'
-        let assuntoOk = true
+        assuntoOk = true
     }
 }
 
 function enviar(){
     if(nomeOk == true && emailOk == true && assuntoOk == true){
-        alert = 'Formulário enviado com sucesso!'
+        alert ('Formulário enviado com sucesso!')
     } else {
-        alert = 'Preencha o formulário corretamente antes de enviar!'
+        alert ('Preencha o formulário corretamente antes de enviar!')
     }
 }
 
