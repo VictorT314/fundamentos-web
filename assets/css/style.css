@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: rgb(111, 151, 202);
+    background-color: rgb(255, 255, 255);
 }
 
 .justify{
@@ -36,6 +36,7 @@ body{
 .f-25{
     font-size: 25px;
 }
+
 
 .p-30 {
     padding: 30px;
